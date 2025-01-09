@@ -1,5 +1,5 @@
 # sterling-secure-proxy-on-premise
-code to deploy sterling secure proxy on-premise
+Instructions to deploy sterling secure proxy on-premise
 
 # Installation of Sterling Secure Proxy Configuration Manager
 
@@ -7,7 +7,7 @@ code to deploy sterling secure proxy on-premise
 
 PRESS <ENTER> TO CONTINUE:
 
-Licenciamento ou digite "1" para aceitar o Contrato/Acordo
+Type 1 to accept the license terms
 
 Where would you like to install?
 
@@ -23,7 +23,10 @@ ENTER PORT NUMBER, OR PRESS <ENTER> TO ACCEPT DEFAULT (Default: 62366):
 PRESS <ENTER> TO CONTINUE:
 
 ENTER THE PASSPHRASE: Password@123
-ENTER THE PASSWORD: Password@123
+Type again to confirm the passphrase
+
+ENTER THE admin PASSWORD: Password@123
+Type again to confirm the password
 
 ENTER PORT NUMBER, OR PRESS <ENTER> TO ACCEPT DEFAULT (Default: 8443):
 
@@ -42,7 +45,6 @@ Disk Space Information (for Installation Target):
     Required:     418.971.853 Bytes
     Available: 63.516.835.840 Bytes
 
-
 ===============================================================================
 Select Default Key Certificate
 ------------------------------
@@ -54,7 +56,7 @@ connection between the engine and CM.
     1- Import Key Certificate
     2- Generate Key Certificate
 
-ENTER THE NUMBER OF THE DESIRED CHOICE: 2
+ENTER THE NUMBER OF THE DESIRED CHOICE: Type 2 to generate the certificate
 
 ===============================================================================
 Generate Default Self Signed  Key Certificate
@@ -89,6 +91,8 @@ You must provide Password for KeyCert export
 
 Enter the Password for KeyCert export: Password@123
 
+Type again to confirm the password
+
 ===============================================================================
 Installation Complete
 ---------------------
@@ -109,7 +113,7 @@ documentation.
 ./startCM.sh
 
 # To login
-Url to login: https://10.176.40.76:8443/sspcmgui
+Url to login: https://x.x.x.x:8443/sspcmgui
 
 
 # Installation of Sterling Secure Proxy Engine
@@ -118,7 +122,7 @@ Url to login: https://10.176.40.76:8443/sspcmgui
 
 PRESS <ENTER> TO CONTINUE:
 
-Licenciamento ou digite "1" para aceitar o Contrato/Acordo, 1
+Type 1 to accept the license terms
 
 ===============================================================================
 Choose Installation Folder
@@ -154,6 +158,8 @@ upper case letter, one lower case letter, one special symbol !@#$%^&  and  not
 more than 2 consecutive character repetition.
 
 ENTER THE PASSPHRASE:Password@123
+
+Type again to confirm the password
 
 ===============================================================================
 Pre-Installation Summary
